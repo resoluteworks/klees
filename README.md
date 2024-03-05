@@ -10,8 +10,9 @@ implementation("io.resoluteworks:klees-core:${kleesVersion}")
 ```
 
 ## Getting started
-> [!NOTE]
-> See this [example](https://github.com/resoluteworks/klees/blob/main/klees-core/src/test/kotlin/klees/Example.kt) for a version with detailed comments.
+
+ See this [example](https://github.com/resoluteworks/klees/blob/main/klees-core/src/test/kotlin/klees/Example.kt) for a version with detailed comments.
+
 ```kotlin
 data class Principal(val id: String, val role: String)
 data class Document(val ownerId: String, val locked: Boolean = false)
