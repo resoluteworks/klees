@@ -48,7 +48,7 @@ val allowed = authPolicy.allowed(principal, read, document)
 ```
 
 ## Guiding principles
-The core motivation for Klees to provide the ability to reason about authorization permissions as easily as possible, and using type safety
+The main motivation for Klees is to provide an ability to reason about authorization permissions as easily as possible, and use type safety
 to define and check authorization logic.
 
 At the same time, we wanted something that's unintrusive, which is why we don't have marker interfaces like
