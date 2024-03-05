@@ -52,7 +52,7 @@ The main motivation for Klees is to provide an ability to reason about authoriza
 to define and check authorization logic.
 
 At the same time, we wanted something that's unintrusive, which is why we don't have marker interfaces like
-`Principal` or `Resource` and we've opted for the generic arguments instead.
+`Principal` or `Resource` and we've opted for the generics instead.
 
 This allows the client code to bring its own representation for these entities, and for the framework to act as a drop-in or extension.
 
